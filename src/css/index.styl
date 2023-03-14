@@ -281,6 +281,11 @@ a {
         display: flex;
         align-items: center;
         }
+    
+    }
+.git-hub__image{
+    max-height: 60px;
+    max-width: 60px;
     }
 
 .section-border {
@@ -578,6 +583,16 @@ a {
         font-size: 0.9rem;
         }
 }
+@media screen and (max-width: 1000px) {
+     .section-col {
+        &__image{
+        width:54%;
+        }
+        &__content{
+        width 41%
+        }
+     }
+    }
  
 /*new and fix media */
 @media screen and (max-width: 1750px) {
@@ -592,13 +607,14 @@ a {
         }
     .main-title {
         &__text{
-            font-size:3em;
+            font-size:5em;
             }
         &__summary {
            
             }
         }
     .social-networks {
+        margin-top: 250px;
         position: static;
         display:flex;
         align-items: center;
@@ -608,9 +624,12 @@ a {
             }
         &__list {
             display:flex;
+            width: 240px;
+            justify-content: space-between;
             }
         &__link {
             padding:0 0.5rem;
+            width:40px;
             }
         
         }
