@@ -11,6 +11,7 @@ html(lang="ru")
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
 
 
@@ -33,7 +34,7 @@ html(lang="ru")
                                 li.main-nav__item 
                                     a.main-nav__link(href ="#") Culture
                         label.search
-                            .search__icon
+                            span.search__icon
                             input.search__form(type="text" placeholder="Search")
                     button.burger-menu__control
                     .space-cover
@@ -43,20 +44,6 @@ html(lang="ru")
                 .main-title__summary explore the world
                 h1.main-title__text China
                     span.main-title__text_regular Eastern beauty
-            .social-networks
-                h3.social-networks__title Follow&nbsp;us
-                ul.social-networks__list
-                    li.social-networks__item 
-                        a.social-networks__link(href="#")
-                            .icon__instagram
-
-                    li.social-networks__item 
-                        a.social-networks__link(href="#")
-                            .icon__twitter
-
-                    li.social-networks__item 
-                        a.social-networks__link(href="#")
-                            .icon__facebook
             .scroll-down
         .container
             section.section-cols
@@ -85,8 +72,6 @@ html(lang="ru")
                     a.git-hub(href="https://github.com/KortiNox" target="_blank")
                         img.git-hub__image(src="./images/icons/github.png", alt="github") 
                     .start__content
-                        h4.start__desc
-        
                         button.button Get started 
             footer.footer
                 .footer__content
@@ -95,8 +80,8 @@ html(lang="ru")
                         .email
                             input.email__form(type="text" placeholder="Email adress")
                             button.button.email__button(type="submit") GO!
-                    .menu 
-                        h4.menu__list 
+                    .menu
+                        ul.menu__list
                             li.menu__item 
                                 a.menu__link Services
                             li.menu__item 
@@ -111,7 +96,7 @@ html(lang="ru")
             
 
     
-    <script src="./js/index.js"></script> 
+        <script src="./js/index.js"></script> 
 
 
     
